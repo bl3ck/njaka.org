@@ -1,0 +1,42 @@
+<header id="header" class="navigation">
+    <div class="container">
+        <div class="brand">
+            <a href="/" class="logo">
+                <img src={{ site.logo }} alt="AIONICS Logo">
+            </a>
+        </div>
+        <nav class="main-menu">
+            <div class="nav-mobile">
+                <a id="nav-toggle" href="#!"><span></span></a>
+            </div>
+            <ul>
+                {% for link in site.data.navigation %}
+                {% assign active = nil %}
+            
+                {% for sublink in link.submenu %}
+                    {% if page.url contains sublink.url %}
+                        {% assign active = 'active' %}
+                    {% endif %}
+                {% endfor %}
+            
+                {% if page.url contains link.url %}
+                    {% assign active = 'active' %}
+                {% endif %}
+                 
+                 <li data = {{ page.url,link.url }} class="{% if page.url == link.url %} active {% endif %} {% if link.submenu %}has-submenu{% endif %}" >
+                     <a href="{{link.url}}">{{link.text}}{% if link.submenu %}<i class="icofont-simple-down"></i>{% endif %}</a>
+                    {% if link.submenu %}
+                    <ul class="sub-menu">
+                        {% for sublink in link.submenu %}
+                        <li><a href="{{sublink.url}}">{{sublink.text}}</a></li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+            
+        </nav>
+
+    </div>
+</header>

@@ -1,0 +1,60 @@
+--- 
+layout: page 
+title: About Us 
+desc: 
+permalink: /about-us/
+---
+
+<section class="about-info pt-100">
+    <div class="container">
+        <div class="about-info-text">
+            <h2>Team</h2>
+            <div class="info-img">
+                <!-- <img src="{{site.baseurl}}/assets/img/about/our-team.jpg" class="img-fluid" alt=""> -->
+            </div>
+        </div>
+        <div class="team-members">
+            {% for member in site.data.team_members %} 
+            <div class="team-member">
+                <div class="team-member-img">
+                    <img src="{{member.image}}" alt="{{member.name}}">
+                </div>
+                <div class="team-member-info">
+                    <h3 class="member-name">{{member.name}}</h3>
+                    <p class="member-role">{{member.role}}</p>
+                    <p class="member-field">{{member.field}}</p>
+                </div>
+            </div>
+            {% endfor %}
+
+            
+        </div>
+    </div>
+</section>
+<section class="about-info advisors">
+    <div class="container">
+        <div class="about-info-text">
+            <h2>Advisors</h2>
+            <div class="info-img">
+                <!-- <img src="{{site.baseurl}}/assets/img/about/our-team.jpg" class="img-fluid" alt=""> -->
+            </div>
+        </div>
+        <div class="team-members">
+            {% for advisor in site.data.advisors %} 
+            <div class="team-member">
+                <div class="team-member-img">
+                    <img src="{{advisor.image}}" alt="{{advisor.name}}">
+                </div>
+                <div class="team-member-info">
+                    <h3 class="member-name">{{advisor.name}}</h3>
+                    <p class="member-role">{{advisor.role}}</p>
+                    <p class="member-field">{{advisor.field}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="call-to-action">
+            <a href="/blog/" class="cta-btn"> News <span><i class="fas fa-arrow-circle-right"></i></span> </a>
+        </div>
+    </div>
+</section>

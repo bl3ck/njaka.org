@@ -1,0 +1,122 @@
+/* 
+
+.phase-graphic {
+	position: absolute;
+	bottom: 9px;
+}
+.phase-graphic i{
+    position: relative;
+	top: 9px;
+} */
+
+.l-b-bg {
+    background-color: rgba(21, 147, 147, 0.05);
+}
+
+.l-g-bg {
+    background-color: rgba(243, 243, 243, 0.5);
+}
+
+.phases {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phases .phase {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    margin: 26px 10px 0 0;
+}
+
+.phases .phase:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.phase-header {
+    border: solid 1px rgba(21, 147, 147, 0.3);
+    color: var(--theme-blue);
+    padding: 10px 20px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.phase-header h3 {
+    font-size: 18px;
+    line-height: 2.2;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.phase-header h4 {
+    font-size: 16px;
+    line-height: 2.2;
+    color: #222;
+    font-weight: 600;
+}
+
+.phase-graphic span {
+    font-size: 60px;
+    padding: 10px;
+    color: #159393;
+}
+
+.phase-content {
+    background-color: rgba(21, 147, 147, 0.05);
+    color: var(--light-gray);
+    padding: 10px 30px;
+    border: solid 1px rgba(21, 147, 147, 0.05);
+}
+
+.phase-content p {
+    text-transform: capitalize;
+}
+
+.phase-graphic {
+    margin: 20px 0;
+}
+
+.svg-inline--fa.fa-plus {
+    margin: 15px 0;
+}
+
+.p-head-s {
+    padding: 35px 0 15px;
+}
+
+.p-head-s p {
+    text-align: center;
+    font-size: 18px;
+}
+
+@media screen and ( max-width: 480px) {
+    #project-structure {
+        padding: 70px 20px;
+    }
+    .phases {
+        display: inline-block;
+        width: 100%;
+    }
+    .phases .phase {
+        width: 100%;
+    }
+    .phase-graphic {
+        margin: 10px 0;
+    }
+    .p-head-s p {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 800px){
+    .phases {
+        flex-wrap: wrap;
+    }
+    .phases .phase {
+        width: 46%;
+        margin: 26px 10px 0 20px;
+    }
+    section {
+        padding-bottom: 100px !important;
+    }
+}

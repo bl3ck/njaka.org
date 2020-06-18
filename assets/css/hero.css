@@ -1,0 +1,47 @@
+#hero {
+	/* background-image: url(../img/favicon.gif); */
+	background-color: rgba(2, 156, 191, 0.03);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 15%;
+	padding: 40px 0;
+	animation: mymove 5s infinite;
+	-webkit-animation-iteration-count: 1;
+	min-height: 60vh;
+}
+
+@keyframes mymove {
+  0% {background-position: center 3% ;}
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-cta {
+    margin-top: auto;
+	text-align: center;
+	font-size: 30px;
+	padding: 0;
+}
+.particles-js-canvas-el {
+	max-height: 45vh;
+	object-fit: cover;
+}
+
+@media screen and ( max-width: 480px ){
+	.particles-js-canvas-el {
+		max-height: 60vh;
+	}
+	#hero {
+		background-position: center 30%;
+		background-size: 25%;
+	}
+	.hero-cta {
+		font-size: 30px;
+		padding: 0 20px;
+	}
+	
+}

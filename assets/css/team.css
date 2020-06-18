@@ -1,0 +1,53 @@
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: start;
+}
+
+.team-member img {
+	width: 100%;
+	object-fit: cover;
+	height: 250px;
+}
+
+.team-member {
+	flex: 0 0 23.43%;
+	width: 22%;
+	margin: 25px 20px 0 0;
+    box-shadow: 0px 0px 10px 0px rgba(2, 2, 2, 0.23);
+    border-radius: 3px;
+}
+
+.team-member-info {
+    padding: 20px;
+}
+.team-member .member-name {
+	display: inline;
+	font-weight: 400;
+}
+.team-member .member-field {
+	font-size: 14px;
+}
+.advisors{
+	padding: 0 0 100px;
+}
+
+@media only screen and (max-width: 800px) {
+	.about-info {
+		padding: 25px;
+	}
+	.team-member {
+		flex: 0 0 31%;
+		width: 33%;
+		margin: 25px 16px 0 0;
+	}
+}
+@media only screen and (max-width: 480px){
+	.team-member {
+		flex: 0 0 100%;
+	}
+	section h2 {
+		font-size: 30px;
+		line-height: 1.1;
+	}
+}
