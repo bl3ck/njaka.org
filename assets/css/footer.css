@@ -6,7 +6,7 @@
 }
 
 #footer-a {
-    background: rgb(21, 147, 147);
+    background: var(--theme-blue)
 }
 
 footer p {
@@ -96,7 +96,7 @@ footer #footer-a {
 
 #footer .b-footer {
     padding: 5px 0;
-    background: rgb(21, 147, 147);
+    background: var(--theme-blue);
 }
 
 .footer-content {
