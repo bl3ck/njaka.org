@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Dr. Sendek’s Stanford PhD
-client_image: /assets/img/team/joel-moxley.jpg
+title:  Njaka Codes 2018
+author_image: /assets/img/team/joel-moxley.jpg
 date:   2020-05-23 15:25:34 +0100
 categories: data mining
-featured_image: /assets/img/case_study/dr_sendek/case_study_dr.png
+featured_image: /assets/img/projects/njaka-bootcamp-2017/njakacodes-bootcamp.jpg
 excerpt: Dr. Sendek's Ph.D. research at Stanford University focused on developing new data-driven methods for identifying solid lithium superionic conductor materials.
 ---
 

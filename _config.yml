@@ -26,7 +26,9 @@ logo: "/assets/img/njaka-logo.png"
 permalink: "/:title"
 
 collections:
-  - case_studies
+  projects:
+    output: true
+    permalink: /:collection/:title
 
 # Build settings
 markdown: kramdown

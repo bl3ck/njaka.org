@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Literature examples of excellence
-author_image: /assets/img/team/joel-moxley.jpg
-date:   2020-05-23 15:25:34 +0100
+title:  Africa Code Week 2018
+client_image: /assets/img/team/joel-moxley.jpg
+date:  2020-05-23 15:25:34 +0100
 categories: data mining
-featured_image: /assets/img/case_study/ml_battery_01/Picture1.png
-excerpt: Dr. Sendek's Ph.D. research at Stanford University focused on developing new data-driven methods for identifying solid lithium superionic conductor materials.
+featured_image: /assets/img/projects/africa-code-week/africa-code-week.jpg
+excerpt: A paragraph is simply one or more consecutive lines of text, separated
 ---
 
 ### Paragraphs and Line Breaks

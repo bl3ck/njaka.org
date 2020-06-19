@@ -3,34 +3,38 @@
   university: Computer Science
   image: /assets/img/team/eugen-bleck.jpg
 - name: Amanda Shafack
-  position: WTM Lead
-  university: Co-Founder
+  position: WTM Lead Cameroon
+  university: B-Tech Sofware Engineering
   image: /assets/img/team/amanda.jpg
 - name: Esambe Elvis
-  position: Computeer Engineering
-  university: Developer
+  position: Backend Developer, Makonjo Ltd
+  university: Computer Engineering
   image: /assets/img/team/esambe.jpg
 - name: Pila Louis
-  position: Chat Desk
-  university: Co-Founder
+  position: Backend Developer, Chat Desk
+  university: Computer Science
   image: /assets/img/team/pila.jpg
 - name: Ngenge Senior
-  position: Udacity
-  university: Co-Founder
+  position: Mobile Developer, Udacity
+  university: Computer Science
   image: /assets/img/team/senior.jpg
 - name: Harisu Fanyui
-  position: Udacity
-  university: Co-Founder
+  position: Full Stack Developer, Udacity
+  university: Computer Engineering
   image: /assets/img/team/eugen-bleck.jpg
 - name: Ngala Dirane
-  position: Udacity
-  university: Co-Founder
+  position: Full-stack Developer, Udacity
+  university: Computer Science
   image: /assets/img/team/dirane.jpg
 - name: Tchasem Borel
-  position: Glotech
-  university: Co-Founder
+  position: Font End Developer, Glotelco
+  university: Computer Science
   image: /assets/img/team/borel.jpg
 - name: Jezeh Priesten
   position: Pether Solutions
-  university: Co-Founder
+  university: Computer Science
   image: /assets/img/team/jezeh.jpg
+- name: Kefeh Collins
+  position: Django Solutions
+  university: Computer Science
+  image: /assets/img/team/kefeh.jpg

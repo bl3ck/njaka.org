@@ -80,6 +80,7 @@ nav ul li ul li a {
 
 .logo {
     width: 220px;
+    display: inline;
 }
 
 .sticky {
@@ -191,9 +192,7 @@ nav ul li ul li a {
 
 .brand {
     position: absolute;
-    padding-left: 20px;
-    float: left;
-    line-height: 55px;
+    line-height: 70px;
     text-transform: uppercase;
 }
 

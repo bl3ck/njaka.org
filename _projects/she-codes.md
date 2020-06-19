@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Electrolyte formulation A
+title:  Njaka She Codes
 author_image: /assets/img/team/joel-moxley.jpg
 date:   2020-05-23 15:25:34 +0100
 categories: data mining
-featured_image: /assets/img/case_study/electrolyte_a/Picture1.png
+featured_image: /assets/img/projects/she-codes/she-codes.jpg
 excerpt: Dr. Sendek's Ph.D. research at Stanford University focused on developing new data-driven methods for identifying solid lithium superionic conductor materials.
 ---
 
