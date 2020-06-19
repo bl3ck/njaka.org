@@ -1,23 +1,15 @@
 <section class="clients-area">
-    <h1>Our customers & partners</h1>
+    <h1>Sponsors & partners</h1>
     <hr class="center-ball">
     <div class="container">
         <div class="partners-carousell">
+            {% for partner in site.data.partners %}
             <div class="partner">
                 <div class="single-clients">
-                    <img src="{{site.baseurl}}/assets/img/clients/form_energy.png" alt="">
+                    <img src="{{ partner.img }}" alt="{{  partner.name  }}">
                 </div>
             </div>
-            <div class="partner">
-                <div class="single-clients">
-                    <img src="{{site.baseurl}}/assets/img/clients/cuberg.png" alt="">
-                </div>
-            </div>
-            <div class="partner">
-                <div class="single-clients">
-                    <img src="{{site.baseurl}}/assets/img/clients/standford_eng.png" alt="">
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>

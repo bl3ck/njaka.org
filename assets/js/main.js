@@ -68,10 +68,22 @@ $(document).ready(function () {
         }
     });
 
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-
     $('.vp .accordion').addClass('active');
     $('.vp .vp-body').addClass('show');
+
+    $('.vp .accordion').click( function (e) {
+        e.preventDefault();
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active');
+            $(this).next('.vp-body').addClass('hide');
+        }else{
+            $(this).addClass('active');
+            $(this).next('.vp-body').removeClass('hide');
+            $(this).next('.vp-body').addClass('show');
+            console.log('Add class');
+        }
+        
+
+    });
 
 });

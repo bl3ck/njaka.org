@@ -7,7 +7,7 @@
   university: B-Tech Sofware Engineering
   image: /assets/img/team/amanda.jpg
 - name: Esambe Elvis
-  position: Backend Developer, Makonjo Ltd
+  position: Founder of EasyTransfa
   university: Computer Engineering
   image: /assets/img/team/esambe.jpg
 - name: Pila Louis
@@ -38,3 +38,7 @@
   position: Django Solutions
   university: Computer Science
   image: /assets/img/team/kefeh.jpg
+- name: Daniel Carlson
+  position: Full Stack Engineer, Losscontrol
+  university: Computer Engineering
+  image: /assets/img/team/carlson.jpg

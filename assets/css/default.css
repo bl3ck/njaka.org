@@ -5,6 +5,12 @@
     --theme-blue: #1e97e3;
     --theme-orange: #ffad00;
     --theme-pink: #ed005c;
+    --theme-orange-light: rgba(255, 173, 0, 0.03);
+}
+
+@font-face {
+    font-family: Njaka;
+    src: url('./../fonts/njaka-heading-font.ttf');
 }
 
 html {
@@ -77,14 +83,14 @@ section h2 {
 }
 
 .page-header {
-    background-color: rgb(246, 248, 248);
+    background-color: var(--theme-orange-light);
     padding: 50px 0;
     border: solid 1px rgb(224, 229, 230);
     ;
 }
 
 .page-header h1 {
-    color: rgb(60, 65, 70);
+    color: var(--theme-orange);
     padding: 0 0 12px;
 }
 
@@ -128,7 +134,7 @@ main {
 .case-url {
     font-weight: 400;
     text-transform: uppercase;
-    color: #159393;
+    color: var(--theme-blue);
     position: absolute;
 }
 .case-study  p{
@@ -144,15 +150,15 @@ hr {
 	margin: 5px auto 35px auto;
 }
 hr.center-ball {
-    background: #159393;
+    background: var(--theme-blue);
 }
 hr.center-ball:before {
     content: "";
     width: 6px;
     height: 6px;
-    background: #159393;
+    background: var(--theme-blue);
     display: inline-block;
-    border: 2px solid #159393;
+    border: 2px solid var(--theme-blue);
     border-radius: 50%;
     position: absolute;
     top: -4px;

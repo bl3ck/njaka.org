@@ -5,14 +5,11 @@
     display: none !important;
 }
 .vps {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: block;
     margin: 25px 0;
 }
 
 .vp {
-    width: 49%;
     padding-bottom: 2%;
 }
 
@@ -57,9 +54,8 @@
 }
 
 .vp .accordion.active~.vp-body {
-    height: 190px;
     overflow: hidden;
-    background-color: rgba(21, 147, 147, 0.05);
+    background-color: var(--theme-orange-light);
     padding: 25px;
 }
 .vp .accordion.active~.vp-body ul{

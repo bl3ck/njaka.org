@@ -48,9 +48,9 @@
     padding: 20px 25px;
 }
 .case-study-card .case-name {
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 10px;
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 10px;
 }
 
 .case-study-card .case-except {
@@ -60,5 +60,5 @@
 .case-study-card .case-url{
     font-weight: 400;
     text-transform: uppercase;
-    color: #159393;
+    color: (--theme-blue);
 }

@@ -31,27 +31,5 @@ permalink: /about-us/
         </div>
     </div>
 </section>
-<section class="about-info advisors">
-    <div class="container">
-        <div class="about-info-text">
-            <h2>Advisors</h2>
-            <div class="info-img">
-                <!-- <img src="{{site.baseurl}}/assets/img/about/our-team.jpg" class="img-fluid" alt=""> -->
-            </div>
-        </div>
-        <div class="team-members">
-            {% for advisor in site.data.advisors %} 
-            <div class="team-member">
-                <div class="team-member-img">
-                    <img src="{{advisor.image}}" alt="{{advisor.name}}">
-                </div>
-                <div class="team-member-info">
-                    <h3 class="member-name">{{advisor.name}}</h3>
-                    <p class="member-role">{{advisor.role}}</p>
-                    <p class="member-field">{{advisor.field}}</p>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
+
+{% include value_proposition.html %}

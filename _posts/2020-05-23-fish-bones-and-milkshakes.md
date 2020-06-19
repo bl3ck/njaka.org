@@ -3,7 +3,7 @@ layout: post
 title:  "fish bones and milkshakes"
 author: 'Henry ford'
 author_link: https://bl3ck.github.io
-author_image: /assets/img/team/joel-moxley.jpg
+author_image: /assets/img/team/eugen-bleck.jpg
 date:   2020-05-23 15:25:34 +0100
 categories: jekyll update
 featured_image: /assets/img/blog/92.jpg

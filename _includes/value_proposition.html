@@ -1,58 +1,63 @@
-<section data-aos="fade" data-aos-offset="100" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center" id="valued_proposition">
-    <div class="container">
-        <h1>Value Propositionn</h1>
-        <hr class="center-ball">
-        <div class="v-head-s">
-            
-        </div>
-        <div class="content">
-            <div class="vps">
-                <div class="vp">
-                    <button class="accordion">Automatic application of machine learning to unique in-house data</button>
-                    <div class="vp-body">
-                        <ul>
-                            <li>Automated computation of numerical “fingerprints” for mixtures of solids, liquids, and additives</li>
-                            <li>One-click training and deployment of machine learning models</li>
-                            <li>Support for user-specified custom performance metrics</li>
-                            <li>Scalable platform for handling datasets of any size</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="vp">
-                    <button class="accordion">Access to models from scientific community (“pre-trained models”):</button>
-                    <div class="vp-body">
-                        <ul>
-                            <li>Models trained in the platform can be automatically applied to >200,000 candidate materials aggregated from multiple databases</li>
-                            <li>Candidates can be combined into a nearly infinite number of unique formulations</li>
-                            <li>Cloud-based data storage for instant recall of historical screening results</li>
-                            <li>Vendor and pricing information for candidate materials</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="vp">
-                    <button class="accordion">Automatic screening of large candidate sets</button>
-                    <div class="vp-body">
-                        <ul>
-                            <li>Immediately access and deploy the latest models as they’re published by the scientific community</li>
-                            <li>Save the time and effort required to reproduce models from the literature</li>
-                            <li>Add in new in-house data and re-train models to make them your own</li>
-                            <li>Optimal starting point for teams with minimal machine learning expertise</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="vp">
-                    <button class="accordion">Scientific insights</button>
-                    <div class="vp-body">
-                        <ul>
-                            <li>Identification of the most important features driving performance</li>
-                            <li>Compare the relative importance of atomistic features versus processing steps</li>
-                            <li>Quantify the predictive power of your datasets</li>
-                            <li>Highlight areas of materials space where models are most and least reliable</li>
-                        </ul>
-                    </div>
+<div class="container">
+    <div class="content">
+        <div class="vps">
+            <div class="vp">
+                <button class="accordion">Our Volunteers</button>
+                <div class="vp-body">
+                    <section class="about-info advisors">
+                        <div class="container">
+                            <div class="about-info-text">
+                                <div class="info-img">
+                                    <!-- <img src="{{site.baseurl}}/assets/img/about/our-team.jpg" class="img-fluid" alt=""> -->
+                                </div>
+                            </div>
+                            <div class="team-members">
+                                {% for advisor in site.data.advisors %}
+                                <div class="team-member">
+                                    <div class="team-member-img">
+                                        <img src="{{advisor.image}}" alt="{{advisor.name}}">
+                                    </div>
+                                    <div class="team-member-info">
+                                        <h3 class="member-name">{{advisor.name}}</h3>
+                                        <p class="member-role">{{advisor.role}}</p>
+                                        <p class="member-field">{{advisor.field}}</p>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
-
+            <div class="vp">
+                <button class="accordion">Our Patrons</button>
+                <div class="vp-body">
+                    <section class="about-info advisors">
+                        <div class="container">
+                            <div class="about-info-text">
+                                <div class="info-img">
+                                    <!-- <img src="{{site.baseurl}}/assets/img/about/our-team.jpg" class="img-fluid" alt=""> -->
+                                </div>
+                            </div>
+                            <div class="team-members">
+                                {% for advisor in site.data.advisors %}
+                                <div class="team-member">
+                                    <div class="team-member-img">
+                                        <img src="{{advisor.image}}" alt="{{advisor.name}}">
+                                    </div>
+                                    <div class="team-member-info">
+                                        <h3 class="member-name">{{advisor.name}}</h3>
+                                        <p class="member-role">{{advisor.role}}</p>
+                                        <p class="member-field">{{advisor.field}}</p>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
+
     </div>
-</section>
+</div>
