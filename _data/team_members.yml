@@ -1,8 +1,36 @@
-- name: Dr. Austin Sendek
-  field: Ph.D., Applied Physics Stanford
-  role: Founder & CEO
-  image: /assets/img/team/sendek.jpg
-- name: Dr. Joel Moxley
-  field: Ph.D., Chemical Engineering MIT
-  role: CTO
-  image: /assets/img/team/joel-moxley.jpg
+- name: Eugen-Bleck
+  position: Pixel Perfect Developer, Aionics
+  university: Computer Science
+  image: /assets/img/team/eugen-bleck.jpg
+- name: Amanda Shafack
+  position: WTM Lead
+  university: Co-Founder
+  image: /assets/img/team/amanda.jpg
+- name: Esambe Elvis
+  position: Computeer Engineering
+  university: Developer
+  image: /assets/img/team/esambe.jpg
+- name: Pila Louis
+  position: Chat Desk
+  university: Co-Founder
+  image: /assets/img/team/pila.jpg
+- name: Ngenge Senior
+  position: Udacity
+  university: Co-Founder
+  image: /assets/img/team/senior.jpg
+- name: Harisu Fanyui
+  position: Udacity
+  university: Co-Founder
+  image: /assets/img/team/eugen-bleck.jpg
+- name: Ngala Dirane
+  position: Udacity
+  university: Co-Founder
+  image: /assets/img/team/dirane.jpg
+- name: Tchasem Borel
+  position: Glotech
+  university: Co-Founder
+  image: /assets/img/team/borel.jpg
+- name: Jezeh Priesten
+  position: Pether Solutions
+  university: Co-Founder
+  image: /assets/img/team/jezeh.jpg

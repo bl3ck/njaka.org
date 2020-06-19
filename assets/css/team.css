@@ -1,21 +1,21 @@
 .team-members {
-    display: flex;
-    flex-wrap: wrap;
-    justify-self: start;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
 }
 
 .team-member img {
 	width: 100%;
 	object-fit: cover;
-	height: 250px;
 }
 
 .team-member {
-	flex: 0 0 23.43%;
-	width: 22%;
-	margin: 25px 20px 0 0;
-    box-shadow: 0px 0px 10px 0px rgba(2, 2, 2, 0.23);
-    border-radius: 3px;
+	/* flex: 1 1 auto; */
+	margin: 12px 8px;
+	box-shadow: 0px 0px 10px 0px rgba(2, 2, 2, 0.23);
+	border-radius: 3px;
+	width: calc(1/5*100% - (1 - 1/5)*20px);
 }
 
 .team-member-info {

@@ -1,20 +1,24 @@
-- name: Dr. Lenson Pellouchoud
-  field: Ph.D., Materials Science and Engineering Stanford
-  role: Science Dude
-  image: /assets/img/team/lenson.jpg
-- name: Prof. Will Chueh
-  field: Stanford University
-  role: Scientific advisor
-  image: /assets/img/team/CHUEH.png
-- name: Prof. Yuzhang Li
-  field: UCLA
-  role: Scientific advisor
-  image: /assets/img/team/yuzhang.png
-- name: Chris Tassone
-  field: Havard X
-  role: GGGGGG advisor
-  image: /assets/img/team/yuzhang.png
-- name: Gergely Zimanyi
-  field: MIT
-  role: DDDDD advisor
-  image: /assets/img/team/yuzhang.png
+- name: Otto Akama
+  field: Computer Science
+  role: Founder
+  image: /assets/img/team/eugen-bleck.jpg
+- name: Isaac Kamga
+  field: Engineering
+  role: Co-Founder
+  image: /assets/img/team/eugen-bleck.jpg
+- name: Bermond Yange
+  field: Engineering
+  role: Co-Founder
+  image: /assets/img/team/eugen-bleck.jpg
+- name: Pila Louis
+  field: Engineering
+  role: Co-Founder
+  image: /assets/img/team/eugen-bleck.jpg
+- name: Ngenge Senior
+  field: Engineering
+  role: Co-Founder
+  image: /assets/img/team/eugen-bleck.jpg
+- name: Harisu Fanyui
+  field: Engineering
+  role: Co-Founder
+  image: /assets/img/team/eugen-bleck.jpg
