@@ -73,13 +73,12 @@ nav ul li ul li a {
 }
 
 .logo img {
-    width: 100%;
+    width: auto;
     height: 30px;
     object-fit: contain;
 }
 
 .logo {
-    width: 220px;
     display: inline;
 }
 
