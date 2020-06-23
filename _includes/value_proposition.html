@@ -12,15 +12,15 @@
                                 </div>
                             </div>
                             <div class="team-members">
-                                {% for advisor in site.data.advisors %}
+                                {% for volunteer in site.data.volunteers %}
                                 <div class="team-member">
                                     <div class="team-member-img">
-                                        <img src="{{advisor.image}}" alt="{{advisor.name}}">
+                                        <img src="{{volunteer.image}}" alt="{{volunteer.name}}">
                                     </div>
                                     <div class="team-member-info">
-                                        <h3 class="member-name">{{advisor.name}}</h3>
-                                        <p class="member-role">{{advisor.role}}</p>
-                                        <p class="member-field">{{advisor.field}}</p>
+                                        <h3 class="member-name">{{volunteer.name}}</h3>
+                                        <p class="member-role">{{volunteer.role}}</p>
+                                        <p class="member-field">{{volunteer.field}}</p>
                                     </div>
                                 </div>
                                 {% endfor %}
