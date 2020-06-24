@@ -6,6 +6,31 @@
 ---
 
 <section class="blog-page">
+    <div class="container">
+        <div class="no-style blog-posts-cards">
+            {% for post in site.posts %}
+                <div class="p-card">
+                    <div class="blog-post-card">
+                        <a href="{{ post.url }}" class="blog-card-link">
+                            <div class="post-card-thumb">
+                                <img src="{{ post.featured_image }}" alt="">
+                            </div>
+                            <div class="post-card-desc">
+                                <p><span class="card-post-month">{{ post.date | date: "%B %Y" }}</span> -  {{ post.title }} </p>
+                                <div class="card-arrow">
+                                    <span><i class="fas fa-arrow-right"></i></span>
+                                </div>
+                            </div>
+                            <div class="card-overlay"></div>
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="blog-page">
     <div class="posts-container">
         
         {% for post in site.posts %}

@@ -6,7 +6,7 @@ author_link: https://bl3ck.github.io
 author_image: /assets/img/team/eugen-bleck.jpg
 date:   2020-05-23 15:25:34 +0100
 categories: jekyll update
-featured_image: /assets/img/blog/92.jpg
+featured_image: /assets/img/projects/africa-code-week/africa-code-week.jpg
 excerpt: Season of Docs is a program that fosters collaboration between technical writers and open source communities to the benefit of both parties. Open source maintainers utilize the writer's technical writing expertise to improve the structure and content of their documentation, while the technical writer is introduced to an open-source community under the guidance of its mentors. Learn more about it on the Google's 
 # url: /welcome-to-jekyll/
 ---
