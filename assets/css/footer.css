@@ -103,3 +103,33 @@
     color: var(--theme-blue);
     padding: 0 10px;
 }
+
+@media screen and (max-width: 480px){
+    .logo {
+        margin: 0 15px;
+    }
+    .footer-s-a, .footer-s-b {
+        flex-direction: column-reverse;
+    }
+    .footer-quick-links {
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #footer ul li {
+        margin: 0.6rem 0;
+    }
+    .footer-about {
+        width: 100%;
+    }
+    #footer {
+        background-size: 15%;
+    }
+    .blog-posts-cards {
+        flex-direction: column;
+    }
+    .blog-posts-cards .p-card {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
