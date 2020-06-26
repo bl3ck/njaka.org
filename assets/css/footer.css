@@ -81,3 +81,25 @@
 #footer .social-icon:hover {
     cursor: pointer;
 }
+.blue {
+    color: var(--theme-blue);
+}
+._404-page h1{
+    color: var(--theme-blue);
+}
+.status-code svg {
+	color: green;
+	font-size: 25px;
+}
+.status-code{
+    color: green;
+}
+.last-p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+.last-p a{
+    font-weight: 400;
+    color: var(--theme-blue);
+    padding: 0 10px;
+}
