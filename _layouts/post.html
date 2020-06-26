@@ -5,17 +5,18 @@ layout: default
 {% include header.html %}
 <main>
     <section class="single-post">
-        <div class="posts-container">
+        <div class="container">
             <h2 class="blog-index-link">{{ page.title }}</h2>
-            <div class="blog-byline">
-                <span class="blog-index-time">{{ page.date | date: "%-d %B %Y" }}</span>
-                <a href="{{ page.author_link }}" class="author-link">
-                    <img src="{{ page.author_image }}" alt="{{ post.author }}">
-                    <span>{{ page.author }}</span>
-                </a>
-            </div>
             <div class="post-featured-img">
                 <img src="{{page.featured_image}}" alt="{{page.title}}">
+            </div>
+            <div class="author-meta">
+                
+                <p class="author-link">
+                    <span class="blog-index-time">{{ page.date | date: "%-d %B %Y" }}</span>
+                    <img src="{{ page.author_image }}" alt="{{ post.author }}">
+                    <span>{{ page.author }}</span>
+                </p>
             </div>
             <div class="post-content">
                 {{content}}
