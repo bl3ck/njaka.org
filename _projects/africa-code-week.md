@@ -5,7 +5,7 @@ client_image: /assets/img/team/joel-moxley.jpg
 date:  2020-05-23 15:25:34 +0100
 categories: data mining
 featured_image: /assets/img/projects/africa-code-week/africa-code-week.jpg
-excerpt: A paragraph is simply one or more consecutive lines of text, separated
+excerpt: Coding and arts are some of the most valuable tools a kid can have in this century, but developing that skill and creativity takes a village. 
 ---
 
 ### Paragraphs and Line Breaks

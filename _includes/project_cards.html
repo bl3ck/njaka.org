@@ -1,14 +1,25 @@
 <section id="case-study-cards">
     <div class="container">
-        <h1>Our Projects</h1>
-        <hr class="center-ball">
         <div class="content">
+            <div class="project-brief">
+                <p>
+                    Coding and arts are some of the most valuable tools a kid can have in this century, but developing that skill and creativity takes a village. That’s why every program we offer and every workshop we run is designed to help this generation of kids set the
+                    course for a better future. 
+                </p>
+                <p>Njaka runs workshops in 3 regions in Cameroon (Southwest, Littoral, and Northwest) and expanding rapidly to other parts of the country and eventually, Africa. </p>
+                <p>
+                    At Njaka Workshops, your kids learn how to code
+                    and develop websites, apps, programs, games, and explore technology using MIT Scratch​, HTML, Javascript, Python, and more! They also learn the culture of reading and sharing through computer programming, poetry, prose, and games.
+                </p>
+                <h3>What we’ve been up to since 2012</h3>
+            </div>
+            
             <div class="case-study-cards">
                 {% for project in site.projects %}
                 <div class="case-study-card">
                     <a href="{{ project.url }}" class="case-study-card-image">
                         <figure>
-                            <img src="{{ project.featured_image }}" alt="{{ project.title }}"/>
+                            <img src="{{ project.featured_image }}" alt="{{ project.title }}" />
                         </figure>
                     </a>
                     <div class="case-study-card-content">
