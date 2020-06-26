@@ -13,7 +13,7 @@
 	position: inherit;
 	display: flex;
 	justify-content: center;
-	margin: -55px 0 30px;
+	margin: -60px 0 30px;
 }
 
 .author-link img {
@@ -54,6 +54,7 @@
     font-size: 16px;
     font-weight: 400;
     text-transform: capitalize;
+    margin-top: 15px;
 }
 
 .read-more {
