@@ -110,21 +110,28 @@
         font-weight: 400;
     }
     .single-post {
-        padding: 25px;
+        padding: 20px;
     }
     .blog-index-link {
         font-size: 25px;
         font-weight: 400;
         line-height: 1.2;
     }
-    .single-post .author-link img {
-        width: 30px;
-    }
     .single-post .post-content {
         padding: 10px 20px 20px 20px;
     }
     .post-content img{
         width: 100%;
+    }
+    .author-link img {
+        width: 60px;
+        height: 60px;
+    }
+    .author-meta {
+        margin: -60px 0 25px;
+    }
+    .blog-index-time, .author-link span {
+        margin-top: 30px;
     }
 }
 

@@ -128,9 +128,9 @@ nav ul li ul li a {
     #nav-toggle span::after {
         cursor: pointer;
         border-radius: 1px;
-        height: 6px;
+        height: 4px;
         width: 30px;
-        background: #159393;
+        background: var(--theme-blue);
         position: absolute;
         display: block;
         content: '';
@@ -166,7 +166,7 @@ nav ul li ul li a {
     .sticky .aoinics-mobile {
         background-color: #f6f8f8;
         color: #f7fcfd;
-        border-top: solid 2px #159393;
+        border-top: solid 2px var(--theme-blue);
     }
     .sticky nav ul li a {
         background-color: #f6f8f8;
