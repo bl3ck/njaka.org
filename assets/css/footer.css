@@ -69,6 +69,7 @@
     padding: 4px;
     border: double 2px #fff;
     line-height: 1.2;
+    border-radius: 3px;
 }
 #footer .social-icon:hover {
 	color: var(--theme-orange);
