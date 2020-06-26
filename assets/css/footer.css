@@ -44,6 +44,10 @@
 .footer-about {
     width: 30%;
 }
+.footer-about p{
+    color: #fff;
+    padding: 10px 0;
+}
 
 .footer-about img {
     width: 220px;
@@ -55,8 +59,22 @@
 }
 
 #footer .social-icon {
-    font-size: 25px;
-    color: #fff;
+	font-size: 20px;
+	color: var(--theme-blue);
+	background-color: #fff;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	text-align: center;
+    padding: 4px;
+    border: double 2px #fff;
+    line-height: 1.2;
+}
+#footer .social-icon:hover {
+	color: var(--theme-orange);
+	background-color: #fff;
+	border: double 2px var(--theme-orange);
+	border-radius: 50px;
 }
 
 #footer .social-icon:hover {

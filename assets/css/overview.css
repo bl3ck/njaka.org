@@ -1,18 +1,17 @@
-.aionics-cards {
+.njaka-cards {
     display: flex;
     justify-content: space-between;
 }
 
-.aionic-card:nth-child(2) {
+.njaka-card:nth-child(2) {
     /* width: 20%; */
     padding: 25px;
     background-color: var(--theme-orange);
 }
 
-.aionic-card {
+.njaka-card {
     color: #fff;
     background-color: var(--theme-blue);
-    border-color: var(--aionics-gray);
     border-radius: 3px;
     padding: 25px;
     transition: all 0.5s linear;
@@ -21,28 +20,25 @@
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
-.aionic-card h3 {
+.njaka-card h3 {
 	font-size: 20px;
     margin-bottom: 3px;
     font-weight: 400;
 }
-.aionic-card h3::after {
-	/* content: ' __'; */
-}
 
-.aionic-card ul {
+.njaka-card ul {
 	list-style: disc;
 	padding: 0 0 0 18px;
 }
 
-.aionic-card li {
+.njaka-card li {
     line-height: 1.5;
 }
-.aionic-card:last-child li:last-child {
+.njaka-card:last-child li:last-child {
 	font-weight: 500;
 }
 
-.aionic-card:hover {
+.njaka-card:hover {
     -webkit-transition: width 0.6s 0s linear;
     -moz-transition: width 0.6s 0s linear;
     -o-transition: width 0.6s 0s linear;
@@ -53,15 +49,15 @@
 }
 
 @media screen and ( max-width: 480px ){
-	.aionics-cards {
+	.njaka-cards {
         display: block;
         justify-content: space-between;
     }
-    .aionic-card {
+    .njaka-card {
         width: 90%;
         margin: 20px auto;
     }
-    .aionic-card:hover {
+    .njaka-card:hover {
         width: 92%;
     }
 }
