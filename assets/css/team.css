@@ -27,6 +27,7 @@
 }
 .team-member .member-field {
 	font-size: 14px;
+	color: var(--theme-blue);
 }
 .advisors{
 	padding: 0 0 100px;

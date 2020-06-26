@@ -52,6 +52,6 @@
 .case-study-card .case-url{
     font-weight: 400;
     text-transform: uppercase;
-    color: (--theme-blue);
+    color: var(--theme-blue);
 }
 

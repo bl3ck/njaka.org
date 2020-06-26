@@ -40,50 +40,52 @@ function myFunction() {
 
 
 $(document).ready(function () {
-    AOS.init({
-        useClassNames: false,
-        disable: ['phone', 'tablet', 'mobile']    
-    });
+    // AOS.init({
+    //     useClassNames: false,
+    //     disable: ['phone', 'tablet', 'mobile']
+    // });
 
-    // Partners JS
-    
-    $('.quote-owl-carousel').owlCarousel({
-        autoplay: true,
-        navigation: true,
-        transitionStyle: "fade",
-        animateOut: 'fadeOut',
-        responsive: {
-            0: {
-                items: 1
-            },
-            320: {
-                items: 1
-            },
-            480: {
-                items: 1
-            },
-            1000: {
-                items: 1
+    if ($('.quote-owl-carousel')) {
+        $('.quote-owl-carousel').owlCarousel({
+            autoplay: true,
+            navigation: true,
+            transitionStyle: "fade",
+            animateOut: 'fadeOut',
+            responsive: {
+                0: {
+                    items: 1
+                },
+                320: {
+                    items: 1
+                },
+                480: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
             }
-        }
-    });
+        });
+    }
 
-    $('.vp .accordion').addClass('active');
-    $('.vp .vp-body').addClass('show');
+    if ($('.vp .accordion')) {
+        $('.vp .accordion').addClass('active');
+        $('.vp .vp-body').addClass('show');
 
-    $('.vp .accordion').click( function (e) {
-        e.preventDefault();
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active');
-            $(this).next('.vp-body').addClass('hide');
-        }else{
-            $(this).addClass('active');
-            $(this).next('.vp-body').removeClass('hide');
-            $(this).next('.vp-body').addClass('show');
-            console.log('Add class');
-        }
-        
+        $('.vp .accordion').click(function (e) {
+            e.preventDefault();
+            if ($(this).hasClass('active')) {
+                $(this).removeClass('active');
+                $(this).next('.vp-body').addClass('hide');
+            } else {
+                $(this).addClass('active');
+                $(this).next('.vp-body').removeClass('hide');
+                $(this).next('.vp-body').addClass('show');
+                console.log('Add class');
+            }
 
-    });
+
+        });
+    }
 
 });

@@ -1,0 +1,27 @@
+<section class="recent-news">
+    <h1>Blog</h1>
+    <hr class="center-ball">
+    <div class="container">
+        <div class="no-style blog-posts-cards">
+            {% for post in site.posts offset:1 limit:3%}
+                <div class="p-card">
+                    <div class="blog-post-card">
+                        <a href="{{ post.url }}" class="blog-card-link">
+                            <div class="post-card-thumb">
+                                <img src="{{ post.featured_image }}" alt="">
+                            </div>
+                            <div class="post-card-desc">
+                                <p class="post-card-title"> {{ post.title }} </p>
+                                <p class="post-card-except"> {{ post.excerpt }} </p>
+                                <div class="card-arrow">
+                                    <span><i class="fas fa-arrow-right"></i></span>
+                                </div>
+                            </div>
+                            <div class="card-overlay"></div>
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
