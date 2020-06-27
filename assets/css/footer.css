@@ -84,6 +84,11 @@
 .blue {
     color: var(--theme-blue);
 }
+.social-icon a{
+    color: inherit;
+}
+
+/* 404 page */
 ._404-page h1{
     color: var(--theme-blue);
 }
