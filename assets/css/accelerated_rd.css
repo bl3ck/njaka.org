@@ -69,4 +69,7 @@ figcaption {
         width: 50%;
         margin: 30px auto;
     }
+    #accelerated_rd {
+        display: none;
+    }
 }
