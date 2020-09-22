@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "donald trump and his fishes"
-author: 'Peter'
+title:  Seven Kids Code 20202
+author: Eugen-Bleck
 author_link: https://bl3ck.github.io
 author_image: /assets/img/team/eugen-bleck.jpg
-date:   2020-05-23 15:25:34 +0100
-categories: jekyll update
-featured_image: /assets/img/blog/92.jpg
-excerpt: Season of Docs is a program that fosters collaboration...
+date:   2020-09-02 15:25:34 +0100
+categories: coding codecamp
+featured_image: /assets/img/blog/njaka-codes-with-seven-academy.jpg
+excerpt: Empowering kids across the African continent to code...
 # url: /welcome-to-jekyll/
 ---
 

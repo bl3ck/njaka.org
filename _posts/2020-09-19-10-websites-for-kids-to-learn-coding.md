@@ -5,9 +5,9 @@ author: 'Helen Abioye'
 author_link: https://bl3ck.github.io
 author_image: /assets/img/team/helene.jpg
 date:   2020-09-19 15:25:34 +0100
-categories: jekyll update
+categories: coding selfstudy
 featured_image: /assets/img/projects/she-codes/she-codes.jpg
-excerpt: Season of Docs is a program that fosters collaboration...
+excerpt: Why kids should learn coding...
 # url: /welcome-to-jekyll/
 ---
 
