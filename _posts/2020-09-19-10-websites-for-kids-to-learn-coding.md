@@ -7,7 +7,7 @@ author_image: /assets/img/team/helene.jpg
 date:   2020-09-19 15:25:34 +0100
 categories: coding selfstudy
 featured_image: /assets/img/projects/she-codes/she-codes.jpg
-excerpt: Why kids should learn coding...
+excerpt: Why kids should learn coding, and where they can possibly start...
 # url: /welcome-to-jekyll/
 ---
 
