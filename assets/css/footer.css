@@ -70,6 +70,7 @@
     border: double 2px #fff;
     line-height: 1.2;
     border-radius: 3px;
+    transition: 0.3s;
 }
 #footer .social-icon:hover {
 	color: var(--theme-orange);
