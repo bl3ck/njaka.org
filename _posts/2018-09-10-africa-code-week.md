@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  Africa Code Week
 author: 'Eugen-Bleck'
 author_link: https://bl3ck.github.io
 author_image: /assets/img/team/eugen-bleck.jpg
@@ -8,7 +8,6 @@ date:   2020-05-23 15:25:34 +0100
 categories: jekyll update
 featured_image: /assets/img/projects/africa-code-week/africa-code-week.jpg
 excerpt: Season of Docs is a program that fosters collaboration...
-# url: /welcome-to-jekyll/
 ---
 ## Block Elements
 
