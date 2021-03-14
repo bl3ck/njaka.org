@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Seven Kids Code 20202
+title:  Seven Kids Code 2020
 author: Eugen-Bleck
 author_link: https://bl3ck.github.io
 author_image: /assets/img/team/eugen-bleck.jpg
