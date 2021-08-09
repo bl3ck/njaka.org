@@ -21,9 +21,13 @@
 }
 
 .njaka-card h3 {
-	font-size: 20px;
-    margin-bottom: 3px;
+    font-size: 20px;
+    margin-bottom: 15px;
     font-weight: 400;
+    color: #fff;
+}
+.njaka-card p{
+    margin-bottom: 0;
 }
 
 .njaka-card ul {
@@ -39,13 +43,7 @@
 }
 
 .njaka-card:hover {
-    -webkit-transition: width 0.6s 0s linear;
-    -moz-transition: width 0.6s 0s linear;
-    -o-transition: width 0.6s 0s linear;
-    transition: width 0.6s 0s linear;
-    transition: all 0.6s linear;
-    width: 100%;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.6);
 }
 
 @media screen and ( max-width: 480px ){

@@ -16,7 +16,8 @@
                                 <img src="{{ post.featured_image }}" alt="">
                             </div>
                             <div class="post-card-desc">
-                                <p><span class="card-post-month">{{ post.date | date: "%B %Y" }}</span> -  {{ post.title }} </p>
+                                <p class="post-card-title"> {{ post.title }} </p>
+                                <p class="post-card-except"> {{ post.excerpt }} </p>
                                 <div class="card-arrow">
                                     <span><i class="fas fa-arrow-right"></i></span>
                                 </div>

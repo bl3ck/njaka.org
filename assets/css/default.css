@@ -22,6 +22,7 @@ html {
     padding: 0;
     margin: 0;
     font-weight: 300;
+    text-decoration: none;
 }
 
 .container {
@@ -37,7 +38,6 @@ html {
 
 .l-bg {
     background-color: #fbfafa;
-    background-image: url('/assets/img/f-footer.gif');
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: 60px;
@@ -45,7 +45,7 @@ html {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 section {

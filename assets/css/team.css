@@ -8,12 +8,16 @@
 .team-member img {
 	width: 100%;
 	object-fit: cover;
+	transition: .3s;
+	filter: grayscale(1);
+}
+.team-member:hover img {
+	filter: grayscale(0);
 }
 
 .team-member {
-	/* flex: 1 1 auto; */
 	margin: 12px 8px;
-	box-shadow: 0px 0px 10px 0px rgba(2, 2, 2, 0.23);
+	box-shadow: 0px 0px 10px 0px rgb(2 2 2 / 10%);
 	border-radius: 3px;
 	width: calc(1/5*100% - (1 - 1/5)*20px);
 }
@@ -28,6 +32,9 @@
 .team-member .member-field {
 	font-size: 14px;
 	color: var(--theme-blue);
+}
+.team-member-info p {
+	margin: 0;
 }
 .advisors{
 	padding: 0 0 100px;

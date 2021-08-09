@@ -22,6 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: njakacodes
 github_username:  njaka
 logo: "/assets/img/njaka-logo.png"
+port: 4444
 
 permalink: "/:title"
 
