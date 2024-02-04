@@ -28,6 +28,12 @@
     margin: 0 0 20px;
 }
 
+/* Fixes alignment issues in the footer */
+.footer-about ul {
+    margin: 0;
+    padding: 0 20px 0 0;
+}
+
 #footer ul li a {
     line-height: 1.5;
     color: #fff;
