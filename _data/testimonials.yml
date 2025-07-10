@@ -1,4 +1,12 @@
-- name: Njaka student
-  text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam odit eum doloribus debitis maiores est. Minima sapiente atque laboriosam explicabo natus doloribus architecto exercitationem, molestiae reiciendis commodi dolorum cumque ratione!
+- name: Amina Abdala
+  text: Joining Njaka was the best decision I've ever made. I started with zero coding experience, but now I’ve built my own interactive stories and games using Scratch. What I love most is how supportive the coaches are—they always encourage me to think creatively and solve problems on my own. Thanks to Njaka, I’ve discovered a passion for programming, and I can’t wait to see where it takes me!
+  role: Batist High School
+  image: /assets/img/team/patrons/amina.jpg
+- name: Samuel Yoka
+  text: Before Njaka, I never thought I could design a website—but after just a few months of hands-on workshops, I created a portfolio site for my drawings using HTML and CSS! The real-world projects we work on make learning so much more meaningful. Plus, collaborating with other teens and presenting our projects in the code club has boosted my confidence. Njaka has given me the skills and mindset to pursue a future in tech.
+  role: St. Therese Primary School
+  image: /assets/img/team/patrons/samuel.jpg
+- name: Grace Beringyu
+  text: I especially enjoy the coding games and challenges—we get to ‘play’ while learning how real code works! My favorite part is when we brainstorm an idea, plan it with flowcharts, and then make it come alive on the screen. Everyone cheers when a project works, even when it takes many tries. Now I look forward to every session and am dreaming about becoming a software engineer one day, thanks to Njaka!
   role: BGS, Molyko
-  image: /assets/img/team/patrons/otto-akama.jpg
+  image: /assets/img/team/patrons/grace.jpg
